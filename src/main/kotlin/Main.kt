@@ -1,9 +1,13 @@
 package com.keldzh
 
+import com.keldzh.days.Day01
 import kotlin.io.path.Path
 
 fun main() {
+    val day = Day01()
 
+    println(day.partOne())
+    println(day.partTwo())
 }
 
 abstract class Day {
