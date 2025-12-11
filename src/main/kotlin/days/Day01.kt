@@ -5,7 +5,8 @@ import com.keldzh.days.Day01.Direction.Companion.toDirection
 import kotlin.io.path.readLines
 
 class Day01 : Day() {
-    override val dayNumber: UByte = 1u
+    override val dayNumber: UByte
+        get() = 1u
 
     override fun partOne(): String {
         var count = 0
