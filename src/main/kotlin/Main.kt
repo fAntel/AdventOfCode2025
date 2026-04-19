@@ -1,10 +1,10 @@
 package com.keldzh
 
-import com.keldzh.days.Day11
+import com.keldzh.days.Day09
 import kotlin.io.path.Path
 
 fun main() {
-    val day = Day11()
+    val day = Day09()
 
     println(day.partOne())
     println(day.partTwo())
